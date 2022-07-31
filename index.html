@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EdTech</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/d2b12bb7f0.js" crossorigin="anonymous"></script>
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar section start -->
+        <div class="container py-4">
+            <nav class="navbar navbar-expand-lg p-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Professional Education</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="custom-nav-text navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#courses">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#register">Register</a>
+                            </li>
+                        </ul>
+                        <button class="px-4 py-2 border border-primary bg-white text-primary rounded fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+
+                        <!-- Modal part -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">What is a modal in Web design?
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>A modal (also called a modal window or lightbox) is a web page element that
+                                            displays in front of and deactivates all other page content. To return to
+                                            the
+                                            main content, the user must engage with the modal by completing an action or
+                                            by
+                                            closing it</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar end -->
+
+        <!-- carousel start -->
+        <section class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slider-img-first d-flex align-items-center justify-content-center">
+                            <div class="p-5">
+                                <h2 class="text-center text-white">Get Started Digital Learning</h2>
+                                <p class="text-center text-white">It is a long established fact that a reader will be
+                                    distracted by the readable
+                                    content of a page when looking at its layout.</p>
+                                <div class="text-center">
+                                    <button class="btn btn-primary text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slider-img-sec d-flex align-items-center justify-content-center">
+                            <div class="p-5">
+                                <h2 class="text-center text-white">Get Started Digital Learning</h2>
+                                <p class="text-center text-white">It is a long established fact that a reader will be
+                                    distracted by the readable
+                                    content of a page when looking at its layout.</p>
+                                <div class="text-center">
+                                    <button class="btn btn-primary text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slider-img-third d-flex align-items-center justify-content-center">
+                            <div class="p-5">
+                                <h2 class="text-center text-white">Get Started Digital Learning</h2>
+                                <p class="text-center text-white">It is a long established fact that a reader will be
+                                    distracted by the readable
+                                    content of a page when looking at its layout.</p>
+                                <div class="text-center">
+                                    <button class="btn btn-primary text-white">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- carousel end -->
+    </header>
+
+    <main class="container">
+        <!-- Popular Courses start -->
+        <section class="my-5" id="courses">
+            <div class="text-center px-5 pt-5">
+                <h2 class="fw-bold">Discover Our Popular Courses</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+        </section>
+        <section>
+            <div class="my-5">
+                <div class="row py-4 gx-5 gy-4">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="p-3 border d-flex flex-lg-row flex-md-row flex-column">
+                                <div class="px-3 py-3">
+                                    <img src="images/course/course-1.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="px-3 py-3">
+                                    <h5>Fundamental Of UI/UX Design</h5>
+                                    <p>The five main principles of UX design. There are many important principles UX
+                                        design</p>
+                                    <h6 class="text-primary">Price : 20$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="p-3 border d-flex flex-lg-row flex-md-row flex-column">
+                                <div class="px-3 py-3">
+                                    <img src="images/course/course-2.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="px-3 py-3">
+                                    <h5>Fullstack Web Development</h5>
+                                    <p>A full stack web developer is a person who can develop both client and server</p>
+                                    <h6 class="text-primary">Price : 20$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="p-3 border d-flex flex-lg-row flex-md-row flex-column">
+                                <div class="px-3 py-3">
+                                    <img src="images/course/course-3.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="px-3 py-3">
+                                    <h5>Digital Marketing</h5>
+                                    <p>Discover how to research and build the correct marketing strategies key
+                                        stakeholders.</p>
+                                    <h6 class="text-primary">Price : 20$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="p-3 border d-flex flex-lg-row flex-md-row flex-column">
+                                <div class="px-3 py-3">
+                                    <img src="images/course/course-4.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="px-3 py-3">
+                                    <h5>Motion Graphics</h5>
+                                    <p>Motion graphics (sometimes mograph) are pieces of animation or digital footage
+                                    </p>
+                                    <h6 class="text-primary">Price : 20$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="p-3 border d-flex flex-lg-row flex-md-row flex-column">
+                                <div class="px-3 py-3">
+                                    <img src="images/course/course-5.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="px-3 py-3">
+                                    <h5>Javascript Basic to advanced</h5>
+                                    <p>Become indispensable to any company with the hottest IT skills. Find the right
+                                        instructor</p>
+                                    <h6 class="text-primary">Price : 20$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="p-3 border d-flex flex-lg-row flex-md-row flex-column">
+                                <div class="px-3 py-3">
+                                    <img src="images/course/course-6.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="px-3 py-3">
+                                    <h5>Photography Basic Rules</h5>
+                                    <p>Bringing perfection to one's work is a trait that takes you a long way, don't you
+                                        think?</p>
+                                    <h6 class="text-primary">Price : 20$</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary text-white text-center">See More Courses</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Popular Courses end -->
+
+        <!-- register now start  -->
+        <section class="bg-primary rounded px-5 py-5 my-5" id="register">
+            <div class="d-flex flex-row align-items-center">
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div>
+                        <h2 class="text-white fw-bold">Ready to Join?</h2>
+                        <p class="text-white">We are a Chennai based job-seeker community connecting candidates who are
+                            readily available
+                            (ready to join) and the recruiters.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-6 text-center">
+                    <div>
+                        <button class="border-0 bg-white text-primary fw-bold px-5 py-3 rounded" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Register Now</button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">What is a modal in Web design?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>A modal (also called a modal window or lightbox) is a web page element that
+                                        displays in front of and deactivates all other page content. To return to the
+                                        main content, the user must engage with the modal by completing an action or by
+                                        closing it</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- register now end  -->
+
+        <!-- FAQ part -->
+        <section class="my-5">
+            <section class="my-5">
+                <div class="text-center px-5 pt-5">
+                    <h2 class="fw-bold">Frequently Asked Questions</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+            </section>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            What is the difference between Flexbox and Flex?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <p>Flexbox allows fine-tuning of alignments to ensure exact specification sharing. Flex
+                                Direction allows developers to align elements vertically or horizontally, which is used
+                                when developers create and reverse rows or columns.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            What is the difference between Tailwind and bootstrap?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <p>Tailwind offers predesigned widgets to build a site from scratch with fast UI
+                                development. Bootstrap comes with a set of pre-styled responsive, mobile-first
+                                components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to
+                                create a neat UI with more flexibility and uniqueness</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            what is css box model?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <p>In CSS, the term "box model" is used when talking about design and layout. The CSS box
+                                model is essentially a box that wraps around every HTML element.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            What is semantic tags?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <p>The HTML semantics refers to the tags that provide meaning to an HTML page rather than
+                                just presentation. It makes HTML more comprehensible by better defining the different
+                                sections and layout of web pages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ part end -->
+
+        <!-- Trusted companies  -->
+        <section class="d-none d-md-none d-lg-block">
+            <div class="my-5">
+                <div class="text-center px-5 pt-5">
+                    <h2 class="fw-bold fs-2">Trusted by over 800+ companies</h2>
+                </div>
+            </div>
+            <div class="col-lg-12 d-flex align-items-center justify-content-center my-5">
+                <div class="me-3">
+                    <img src="images/company/company-1.png" alt="">
+                </div>
+                <div class="me-3">
+                    <img src="images/company/company-2.png" alt="">
+                </div>
+                <div class="me-3">
+                    <img src="images/company/company-3.png" alt="">
+                </div>
+                <div class="me-3">
+                    <img src="images/company/company-4.png" alt="">
+                </div>
+                <div class="me-3">
+                    <img src="images/company/company-5.png" alt="">
+                </div>
+                <div class="me-3">
+                    <img src="images/company/company-6.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Trusted companies part end -->
+    </main>
+
+
+    <!-- bootstrap link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+<!-- footer section start  -->
+<footer class="mt-5">
+    <section class="bg-black">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-lg-12 py-5">
+                    <h2>Pro Edu</h2>
+                    <p class="text-light">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
+                    <p class="text-white">
+                        <a class="text-decoration-none text-white" href="#">Privacy</a> |
+                        <a class="text-decoration-none text-white" href="#">Terms of Use</a>
+                    </p>
+
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+                        <a class="text-decoration-none text-white" href="https://www.facebook.com/"><i
+                                class="fa-brands fa-facebook-f px-2"></i></a>
+                        <a class="text-decoration-none text-white" href="https://www.instagram.com/"><i
+                                class="fa-brands fa-instagram px-2"></i></a>
+                        <a class="text-decoration-none text-white" href="https://twitter.com/"><i
+                                class="fa-brands fa-twitter px-2"></i></a>
+                        <a class="text-decoration-none text-white" href="https://www.linkedin.com/"><i
+                                class="fa-brands fa-linkedin px-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<!-- footer section end  -->
+
+</html>
